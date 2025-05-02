@@ -50,6 +50,9 @@ git clone https://github.com/用户名/仓库名.git
 git add .
 git commit -m "提交说明"
 git push origin main
+// 第一次推必须要加参数 git push -u origin main
+// 这个origin是远程仓库名，不固定的，git remote输出什么就是什么
+// main是主分支名，也可以是master
 ```
 
 ### 6. Fork 他人仓库
